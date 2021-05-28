@@ -1,0 +1,48 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://kywark.github.io/testing-things/electric-sheep/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "Electric Sheep" ] },
+    "homepage": [
+      {
+        "id": "https://archive.org/details/electricsheep-flock-247-55000-5/00247%3D55015%3D54206%3D54357.avi",
+        "type": "Text",
+        "label": { "en": [ "Electric Sheep" ] },
+        "format": "text/html"
+      }
+    ],
+    "provider": [
+      {
+        "id": "https://archive.org",
+        "type": "Agent",
+        "label": { "en": [ "Internet Archive" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://kywark.github.io/testing-things/electric-sheep/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 5,
+        "items": [
+          {
+            "id": "https://kywark.github.io/testing-things/electric-sheep/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://kywark.github.io/testing-things/electric-sheep/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://ia601507.us.archive.org/8/items/electricsheep-flock-247-55000-5/00247%3D55015%3D54206%3D54357.mp4",
+                    "type": "Video",
+                    "format": "video/mp4",
+                    "duration": 5
+                },
+                "target": "https://kywark.github.io/testing-things/electric-sheep/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
