@@ -1,0 +1,4 @@
+3	3	what would <sub>sub</sub> look like?<sub>1</sub?>
+3	3	what would <sup>sup</sup> look like?<sup>1</sup?>
+4	4	<b>wow</b>
+4	5	if i <del>don't like this</del> but <ins>love this</ins>, what do i do?
