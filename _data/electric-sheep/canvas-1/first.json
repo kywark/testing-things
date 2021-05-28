@@ -1,0 +1,71 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://kywark.github.io/testing-things/electric-sheep/canvas-1/canvas/first.json",
+  "type": "AnnotationPage",
+  "label": "First",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "https://kywark.github.io/testing-things/electric-sheep/canvas-1/canvas/first-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "wavy",
+        "format": "text/plain"
+      },
+      "target": {
+        "source": "https://kywark.github.io/testing-things/electric-sheep/canvas-1/canvas",
+        "selector": {
+          "type": "RangeSelector",
+          "t": "1,2"
+        }
+      }
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "https://kywark.github.io/testing-things/electric-sheep/canvas-1/canvas/first-annotation-1.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "<em>wavy</em>",
+        "format": "text/plain"
+      },
+      "target": {
+        "source": "https://kywark.github.io/testing-things/electric-sheep/canvas-1/canvas",
+        "selector": {
+          "type": "RangeSelector",
+          "t": "1,2"
+        }
+      }
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "https://kywark.github.io/testing-things/electric-sheep/canvas-1/canvas/first-annotation-2.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "this is a link to <a href=\"https://www.youtube.com/watch?v=__Vd1i10FqU\">a sheep protest</a>",
+        "format": "text/plain"
+      },
+      "target": {
+        "source": "https://kywark.github.io/testing-things/electric-sheep/canvas-1/canvas",
+        "selector": {
+          "type": "RangeSelector",
+          "t": "2,3"
+        }
+      }
+    }
+  ]
+}

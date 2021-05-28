@@ -23,6 +23,14 @@
         "id": "https://kywark.github.io/testing-things/electric-sheep/canvas-1/canvas",
         "type": "Canvas",
         "duration": 5,
+        "annotations": [
+          
+          {
+            "type": "AnnotationPage",
+            "id": "https://kywark.github.io/testing-things/electric-sheep/canvas-1/canvas/first.json",
+            "label": "First"
+          }
+        ],
         "items": [
           {
             "id": "https://kywark.github.io/testing-things/electric-sheep/canvas-1/paintings",
