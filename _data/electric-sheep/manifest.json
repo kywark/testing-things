@@ -36,6 +36,12 @@
             "id": "https://kywark.github.io/testing-things/electric-sheep/canvas-1/canvas/first.json",
             "label": "First"
           }
+          ,
+          {
+            "type": "AnnotationPage",
+            "id": "https://kywark.github.io/testing-things/electric-sheep/canvas-1/canvas/third.json",
+            "label": "Third"
+          }
         ],
         "items": [
           {

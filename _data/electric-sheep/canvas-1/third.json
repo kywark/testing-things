@@ -1,0 +1,71 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://kywark.github.io/testing-things/electric-sheep/canvas-1/canvas/third.json",
+  "type": "AnnotationPage",
+  "label": "Third",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "https://kywark.github.io/testing-things/electric-sheep/canvas-1/canvas/third-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "<p style=\"color:red;\">This is a red paragraph.</p>",
+        "format": "text/plain"
+      },
+      "target": {
+        "source": "https://kywark.github.io/testing-things/electric-sheep/canvas-1/canvas",
+        "selector": {
+          "type": "PointSelector",
+          "t": "5"
+        }
+      }
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "https://kywark.github.io/testing-things/electric-sheep/canvas-1/canvas/third-annotation-1.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "<p style=\"font-size:160%;\">This is a paragraph.</p>",
+        "format": "text/plain"
+      },
+      "target": {
+        "source": "https://kywark.github.io/testing-things/electric-sheep/canvas-1/canvas",
+        "selector": {
+          "type": "PointSelector",
+          "t": "4"
+        }
+      }
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "https://kywark.github.io/testing-things/electric-sheep/canvas-1/canvas/third-annotation-2.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "<h1 style=\"font-size:300%;\">This is a heading</h1>",
+        "format": "text/plain"
+      },
+      "target": {
+        "source": "https://kywark.github.io/testing-things/electric-sheep/canvas-1/canvas",
+        "selector": {
+          "type": "PointSelector",
+          "t": "5"
+        }
+      }
+    }
+  ]
+}
