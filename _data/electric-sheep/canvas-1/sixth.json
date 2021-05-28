@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://kywark.github.io/testing-things/electric-sheep/canvas-1/canvas/sixth.json",
+  "type": "AnnotationPage",
+  "label": "Sixth",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "https://kywark.github.io/testing-things/electric-sheep/canvas-1/canvas/sixth-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "<p>Here is a quote from WWF's website:</p><blockquote cite=\"http://www.worldwildlife.org/who/index.html\"><br>For 50 years, WWF has been protecting the future of nature.</br><br>The world's leading conservation organization,</br>WWF works in 100 countries and is supported by</br><br>1.2 million members in the United States and</br><br>close to 5 million globally.</br></blockquote>",
+        "format": "text/plain"
+      },
+      "target": {
+        "source": "https://kywark.github.io/testing-things/electric-sheep/canvas-1/canvas",
+        "selector": {
+          "type": "PointSelector",
+          "t": "2"
+        }
+      }
+    }
+  ]
+}
