@@ -33,6 +33,12 @@
           ,
           {
             "type": "AnnotationPage",
+            "id": "https://kywark.github.io/testing-things/electric-sheep/canvas-1/canvas/seventh.json",
+            "label": "Seventh"
+          }
+          ,
+          {
+            "type": "AnnotationPage",
             "id": "https://kywark.github.io/testing-things/electric-sheep/canvas-1/canvas/sixth.json",
             "label": "Sixth"
           }

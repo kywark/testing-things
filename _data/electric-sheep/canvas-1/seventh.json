@@ -1,0 +1,50 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://kywark.github.io/testing-things/electric-sheep/canvas-1/canvas/seventh.json",
+  "type": "AnnotationPage",
+  "label": "Seventh",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "https://kywark.github.io/testing-things/electric-sheep/canvas-1/canvas/seventh-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "<img src=\"https://www.w3schools.com/images/picture.jpg\" alt=\"Mountain\">",
+        "format": "text/plain"
+      },
+      "target": {
+        "source": "https://kywark.github.io/testing-things/electric-sheep/canvas-1/canvas",
+        "selector": {
+          "type": "PointSelector",
+          "t": "1"
+        }
+      }
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "https://kywark.github.io/testing-things/electric-sheep/canvas-1/canvas/seventh-annotation-1.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "hi <p style=\"background-color:Tomato;\">Lorem ipsum...</p>",
+        "format": "text/plain"
+      },
+      "target": {
+        "source": "https://kywark.github.io/testing-things/electric-sheep/canvas-1/canvas",
+        "selector": {
+          "type": "PointSelector",
+          "t": "2"
+        }
+      }
+    }
+  ]
+}
