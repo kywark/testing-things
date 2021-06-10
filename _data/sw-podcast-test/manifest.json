@@ -1,0 +1,48 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://kywark.github.io/testing-things/sw-podcast-test/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "SW Podcast test" ] },
+    "homepage": [
+      {
+        "id": "https://spokenweb.ca/podcast/episodes/mavis-gallant-part-2/",
+        "type": "Text",
+        "label": { "en": [ "SW Podcast test" ] },
+        "format": "text/html"
+      }
+    ],
+    "provider": [
+      {
+        "id": "https://spokenweb.ca/",
+        "type": "Agent",
+        "label": { "en": [ "SpokenWeb" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://kywark.github.io/testing-things/sw-podcast-test/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 2710.0,
+        "items": [
+          {
+            "id": "https://kywark.github.io/testing-things/sw-podcast-test/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://kywark.github.io/testing-things/sw-podcast-test/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://cdn.simplecast.com/audio/28a9da1f-8cca-410c-b5d7-8165a73f9394/episodes/701010c0-9bb5-412c-acb0-2e48a249ca09/audio/792ab3ed-977c-43e3-9e55-a10c09f5495d/default_tc.mp3",
+                  "type": "Sound",
+                  "format": "audio/mp3",
+                    "duration": 2710.0
+                },
+                "target": "https://kywark.github.io/testing-things/sw-podcast-test/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
