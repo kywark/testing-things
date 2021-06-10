@@ -1,0 +1,48 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://kywark.github.io/testing-things/testing-delete/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "Testing Delete" ] },
+    "homepage": [
+      {
+        "id": "",
+        "type": "Text",
+        "label": { "en": [ "Testing Delete" ] },
+        "format": "text/html"
+      }
+    ],
+    "provider": [
+      {
+        "id": "",
+        "type": "Agent",
+        "label": { "en": [ "" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://kywark.github.io/testing-things/testing-delete/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 18,
+        "items": [
+          {
+            "id": "https://kywark.github.io/testing-things/testing-delete/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://kywark.github.io/testing-things/testing-delete/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://media.sas.upenn.edu/pennsound/authors/Abel/Writers%20House%20Visit%20(3-19-14)/Float/Dedication.mp3",
+                  "type": "Sound",
+                  "format": "audio/mp3",
+                    "duration": 18
+                },
+                "target": "https://kywark.github.io/testing-things/testing-delete/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
