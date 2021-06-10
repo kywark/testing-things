@@ -1,0 +1,48 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://kywark.github.io/testing-things/test-video/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "Test Video" ] },
+    "homepage": [
+      {
+        "id": "",
+        "type": "Text",
+        "label": { "en": [ "Test Video" ] },
+        "format": "text/html"
+      }
+    ],
+    "provider": [
+      {
+        "id": "",
+        "type": "Agent",
+        "label": { "en": [ "" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://kywark.github.io/testing-things/test-video/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 133.0,
+        "items": [
+          {
+            "id": "https://kywark.github.io/testing-things/test-video/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://kywark.github.io/testing-things/test-video/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://ia801203.us.archive.org/7/items/DWebSummit2016_Video_Creativity_on_the_Decentralized_Web/DWebSummit2016_Video_Creativity_on_the_Decentralized_Web.mp4",
+                    "type": "Video",
+                    "format": "video/mp4",
+                    "duration": 133.0
+                },
+                "target": "https://kywark.github.io/testing-things/test-video/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
