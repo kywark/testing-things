@@ -1,0 +1,48 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://kywark.github.io/testing-things/test-dropbox/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "Test Dropbox" ] },
+    "homepage": [
+      {
+        "id": "",
+        "type": "Text",
+        "label": { "en": [ "Test Dropbox" ] },
+        "format": "text/html"
+      }
+    ],
+    "provider": [
+      {
+        "id": "",
+        "type": "Agent",
+        "label": { "en": [ "" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://kywark.github.io/testing-things/test-dropbox/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 3943.0,
+        "items": [
+          {
+            "id": "https://kywark.github.io/testing-things/test-dropbox/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://kywark.github.io/testing-things/test-dropbox/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://dl.dropboxusercontent.com/s/kayc9fw8pqo6ijw/FF021.mp3?raw=1",
+                  "type": "Sound",
+                  "format": "audio/mp3",
+                    "duration": 3943.0
+                },
+                "target": "https://kywark.github.io/testing-things/test-dropbox/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
