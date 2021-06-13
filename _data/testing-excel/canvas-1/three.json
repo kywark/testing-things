@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://kywark.github.io/testing-things/testing-excel/canvas-1/canvas/three.json",
+  "type": "AnnotationPage",
+  "label": "three",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "https://kywark.github.io/testing-things/testing-excel/canvas-1/canvas/three-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "to",
+        "format": "text/plain"
+      },
+      "target": {
+        "source": "https://kywark.github.io/testing-things/testing-excel/canvas-1/canvas",
+        "selector": {
+          "type": "PointSelector",
+          "t": "2"
+        }
+      }
+    }
+  ]
+}
